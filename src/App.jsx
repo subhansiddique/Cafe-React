@@ -7,6 +7,7 @@ import About from './screens/About'
 import Contact from './screens/Contact'
 import Gallery from './screens/Gallery'
 import Offer from './screens/Offer'
+import Footer from './screens/Footer'
 
 function App() {
  const router = createBrowserRouter([
@@ -16,6 +17,7 @@ function App() {
   {path :"/contact", element:<Contact/>, },
   {path :"/gallery", element:<Gallery/>, },
   {path :"/offer", element:<Offer/>, },
+  {path :"/footer", element:<Footer/>, },
 ])
 
   return <RouterProvider router={router} />
